@@ -1,4 +1,4 @@
-export const deposit = (amount)=> {
+export const depositMoney = (amount)=> {
 
     return function(dispatch) {
         dispatch({
@@ -8,7 +8,7 @@ export const deposit = (amount)=> {
     }
 };
 
-export const withdraw = (amount)=> {
+export const withdrawMoney = (amount)=> {
 
     return function(dispatch) {
         dispatch({

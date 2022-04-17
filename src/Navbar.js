@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 const Navbar = () => {
-    const amount = useSelector(state=>state.amount);
+    const amount = useSelector(state=>state.amount);       //Read state
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
